@@ -31,6 +31,7 @@ The Mivia Industrial Speech-Commands (MISC) dataset, created at the MIVIA lab in
 - **5,084 "synthetic" samples** generated using Text-to-Speech systems from various providers.
 - **32,265 "reject" samples** containing background noise and irrelevant chatter from different datasets.
 - **2,635 "noisy" samples**, including real-world industrial noise from the Stellantis plant and additional samples from the FreeSound dataset.
+
 The subset from in-plant acquisitions is named the Mivia In-Plant Industrial Speech Commands dataset (MiPISC).
 
 ## Instructions

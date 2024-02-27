@@ -35,14 +35,23 @@ The dataset comprises various types of samples, including:
 Specifically, the subset derived from in-plant acquisitions is labeled the Mivia In-Plant Industrial Speech Commands dataset, abbreviated as the MiPISC dataset.
 
 ## Instructions
-1. Clone the repository.
-2. Follow the provided instructions to set up the environment.
-3. Use the training code to reproduce the Speech-Command Recognition system.
-4. Access the dataset for experimentation.
-5. Evaluate system performance with the provided test code.
-
-Feel free to explore, replicate experiments, and contribute to the development of this efficient embedded Speech-Command Recognition system.
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/MiviaLab/command_recognition.git
+   ```
+2. **Configure Training Settings:**
+   Modify the "conf.py" file located at "./training/settings." This file contains all the parameters necessary for the training and testing phases, such as model configuration, curriculum learning strategy, training parameters, etc.
+3. **Train the Speech-Command Recognition System:**
+   In the "training" folder, execute the "train.py" script by providing the configuration file (e.g., "conf.py") for training.
+   ```bash
+   python3 train.py --configuration conf
+   ```
+4. **Evaluate System Performance:**
+   Evaluate the system's performance using the provided test code. From the "training" folder, run the "test.py" script by passing the configuration file (e.g., "conf.py") for testing.
+   ```bash
+   python3 test.py --configuration conf
+   ```
 
 ## Reference
-'''bibtext
-'''
+```bibtext
+```

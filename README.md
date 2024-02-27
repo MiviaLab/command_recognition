@@ -11,14 +11,6 @@ Communication between robots and humans in industrial environments heavily relie
 - **Curriculum Learning:** Progressive learning strategy to handle increasing sample complexities.
 - **Dynamic Data Augmentation:** Techniques to introduce noise during training, improving system robustness.
 
-**Dataset:**
-- A comprehensive dataset of over 50,000 samples, including real-world data from daily operations at a Stellantis Italian factory.
-
-**Model Size and Inference Speed:**
-- Achieves impressive accuracy rates exceeding 90% for both English and Italian commands.
-- Compact model size: 1.81 MB.
-- Real-time inference on embedded devices: 41 ms on an NVIDIA Xavier NX.
-
 **Repository Contents:**
 1. **Training Code:** Implementation of the Speech-Command Recognition system, including Curriculum Learning and dynamic data augmentation.
 2. **Dataset:** Access to the dataset used for training and testing.

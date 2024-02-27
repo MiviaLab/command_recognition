@@ -40,7 +40,7 @@ Specifically, the subset derived from in-plant acquisitions is labeled the Mivia
    git clone https://github.com/MiviaLab/command_recognition.git
    ```
 2. **Configure Training Settings:**
-   Modify the "conf.py" file located at "./training/settings." This file contains all the parameters necessary for the training and testing phases, such as model configuration, curriculum learning strategy, training parameters, etc.
+   Modify the "conf.py" file located at "./settings." This file contains all the parameters necessary for the training and testing phases, such as model configuration, curriculum learning strategy, training parameters, etc.
 3. **Train the Speech-Command Recognition System:**
    In the "training" folder, execute the "train.py" script by providing the configuration file (e.g., "conf.py") for training.
    ```bash

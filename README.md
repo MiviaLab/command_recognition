@@ -1,6 +1,6 @@
 # Embedded Speech-Command Recognition for Noisy Industrial Environments
 
-Welcome to the GitHub repository for the code supporting our publication in [Journal Name]. This repository contains the implementation of a Speech-Command Recognition system tailored for embedded devices in noisy industrial settings.
+Welcome to the GitHub repository for the code supporting our publications in Computer Communications and Advanced Robotics of Springer journal. This repository contains the implementation of a Speech-Command Recognition system tailored for embedded devices in noisy industrial settings.
 
 **Abstract:**
 Communication between robots and humans in industrial environments heavily relies on speech, presenting challenges in high-noise scenarios. Our work addresses this by introducing a Speech-Command Recognition system optimized for embedded devices with limited computational resources. Using an innovative End-to-End architecture based on the ResNet backbone, our solution achieves high accuracy while minimizing computational burden. We implement Curriculum Learning and dynamic data augmentation to enhance robustness against noise during training.
@@ -44,15 +44,20 @@ The subset from in-plant acquisitions is named the Mivia In-Plant Industrial Spe
    python3 test.py --configuration conf
    ```
 
-## Models
+<!--- ## Models ---> 
 
 
-## Curriculum Learning
+<!--- ## Curriculum Learning ---> 
 
 
-## Results
+<!--- ## Results ---> 
 
 
 ## Reference
+The framework has been developed to enhance research on speech interaction in complex scenarios. Its efficacy is detailed in two publications (listed subsequently). Additionally, the framework has played a pivotal role in contributing to the European Project FELICE under Horizon 2020 [GitHub Pages]([https://www.felice-project.eu/). Should you find this work beneficial, we kindly request citation acknowledgment.
 ```bibtext
+@inproceedings{bini_dda, author={Bini, Stefano and Saggese, Alessia and Vento, Mario}, booktitle={2024 European Robotics Forum}, title={Enhancing Noise Robustness of Speech-Based Human-Robot Interaction in Industry}, year={2024}, pages={}, doi={}, organization={Springer}}
+```
+```bibtext
+@inproceedings{bini_cl, author={Bini, Stefano and Vincenzo, Carletti and Saggese, Alessia and Vento, Mario}, booktitle={Computer Communication, VSI:Real-Time Analytics}, title={Robust Speech Command Recognition in Challenging Industrial Environments}, year={2024}, pages={}, doi={}, organization={Springer}}
 ```

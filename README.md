@@ -54,7 +54,7 @@ The subset from in-plant acquisitions is named the Mivia In-Plant Industrial Spe
 
 
 ## Reference
-The framework has been developed to enhance research on speech interaction in complex scenarios. Its efficacy is detailed in two publications (listed subsequently). Additionally, the framework has played a pivotal role in contributing to the European Project FELICE under Horizon 2020 [GitHub Pages]([https://www.felice-project.eu/). Should you find this work beneficial, we kindly request citation acknowledgment.
+The framework has been developed to enhance research on speech interaction in complex scenarios. Its efficacy is detailed in two publications (listed subsequently). Additionally, the framework has played a pivotal role in contributing to the European Project [FELICE]([https://www.felice-project.eu/) under Horizon 2020. Should you find this work beneficial, we kindly request citation acknowledgment.
 ```bibtext
 @inproceedings{bini_dda, author={Bini, Stefano and Saggese, Alessia and Vento, Mario}, booktitle={2024 European Robotics Forum}, title={Enhancing Noise Robustness of Speech-Based Human-Robot Interaction in Industry}, year={2024}, pages={}, doi={}, organization={Springer}}
 ```
